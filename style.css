@@ -1,37 +1,16 @@
-* {
-    box-sizing: border-box;
-  }
-
-
-.row {
-    display: flex;
+.container {
+    background-color: whitesmoke;
 }
 
-.col-md-4 {
-    flex: 50%;
-    left: 0px;
-    float: left;
-}
-
-.col-md-8 {
-    flex: 50%;
-    right: 0px;
-    width: auto;
-    overflow: hidden;
-
-}
+/* .card-body{
+    display: inline-block;
+} */
 
 h1 {
-    color: white;
-    font-size: 32px;
-    text-align: center;
-    display: inline-block;
-    position: relative;
-    width: 100%;
+     color: yellow;
 }
 
 #forecastday {
-    display: inline-flex;
-    overflow: hidden;
+    display: inline-block;
 }
 
